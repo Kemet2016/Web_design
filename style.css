@@ -1,0 +1,295 @@
+/*css styles*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    }    
+    body {
+        background-color: floralwhite;
+        font-size: 100%;
+        font-family: Verdana, helvetica, arial;
+        background-attachment:fixed;
+   }
+
+body.home nav li:nth-child(1),
+body.about nav li:nth-child(2),
+body.tours nav li:nth-child(3),
+body.deals nav li:nth-child(4),
+body.gallery nav li:nth-child(5),
+body.services nav li:nth-child(6)
+{
+    background: white;
+    
+}
+
+        /*font size of 100% will mean that 1em equals 16px*/
+       /*this is my comment tag*/
+    header {
+        
+        padding-bottom: 20px;
+    }
+    
+nav {
+        height: 50px;
+        background: yellow;
+        line-height: 50px;
+    
+    }
+nav ul {
+    width: 1100px;
+    margin: 0 auto;
+    
+}
+    nav li {
+        float: left;
+        list-style-type: none;
+        text-align: center;
+        width: 13%;
+        
+    }
+    nav a {
+        text-decoration: none;
+        display: block;
+    }
+    nav a:hover {
+        background:white;
+    }
+
+main {
+    
+        width: 580px;
+        float: left;
+    
+    }
+aside {
+    background: none;
+    width: 340px;
+    float: right;
+}
+body.home #wrapper {
+        width: 940px;
+        margin:100px auto 20px auto;
+        background: #fff;
+        background: rgba(255, 255, 255, .94);
+        overflow: hidden;
+        padding: 20px;
+        /*opacity:.7; do not use opacity*/
+    }
+
+body.about #wrapper {
+        width: 940px;
+        margin:100px auto 20px auto;
+        background: #fff;
+        background: rgba(255, 255, 255, .94);
+        overflow: hidden;
+        padding: 30px;
+        /*opacity:.7; do not use opacity*/
+    }
+
+body.tours #wrapper {
+        width: 940px;
+        margin:100px auto 20px auto;
+        background: #fff;
+        background: rgba(255, 255, 255, .94);
+        overflow: hidden;
+        padding: 30px;
+        /*opacity:.7; do not use opacity*/
+    }
+body.deals #wrapper {
+        width: 940px;
+        margin:100px auto 20px auto;
+        background: #fff;
+        background: rgba(255, 255, 255, .94);
+        overflow: hidden;
+        padding: 30px;
+        /*opacity:.7; do not use opacity*/
+    }
+body.gallery #wrapper {
+        width: 940px;
+        margin:100px auto 20px auto;
+        background: #fff;
+        background: rgba(255, 255, 255, .94);
+        overflow: hidden;
+        padding: 30px;
+        /*opacity:.7; do not use opacity*/
+    }
+
+body.services #wrapper {
+        width: 940px;
+        margin:100px auto 20px auto;
+        background: #fff;
+        background: rgba(255, 255, 255, .94);
+        overflow: hidden;
+        padding: 30px;
+        /*opacity:.7; do not use opacity*/
+    }
+
+
+footer {
+        height: 50px;
+        line-height: 50px;
+        background-color:darkturquoise;
+        clear: both;
+    margin-top: 10px;
+    }
+    footer ul { 
+    margin-left: 0;
+    }
+    footer li {
+        float: left;
+        list-style-type: none;
+        margin-right: 30px;
+    }
+img {
+    max-width: 100%;
+    display: block;
+    
+}
+img.left{
+    width: 300px;
+    margin: 10px 10px 10px 10px;
+    float: left;
+    max-width: 100%;
+}
+img.right {
+     width: 300px;
+    margin-left: 10px;
+    float: right;
+    margin-bottom: 20px;
+}
+img.center{
+    width: 450px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    margin-left: 200px;
+}
+ 
+img.about {
+    max-height: 100%;
+    width: 550px;
+    display: block;
+    margin-left: 100px;
+    
+}
+
+    div.gallery img {
+        width: 280px;
+        padding: 10px;
+        transition: 1s;
+        float:left;
+        margin-left: 90px;
+    }
+
+main {
+        width: 550px;
+        float: left;
+    
+    }
+aside {
+    margin-top: 70px;
+        width: 340px;
+        float: right;
+        border: 1px solid black;
+    margin-bottom: 10px;
+}
+aside li {
+        list-style-position: inside;
+         line-height: 20px;
+    }
+    aside img {
+        width: 300px;
+        border: 1px solid black;
+        margin-left: 20px;
+        margin-top: 20px;
+}
+map {
+    display: inline;
+}
+figure {
+        margin-bottom: 20px;
+    }
+    figcaption {
+        padding: 8px;
+        background-color:white;
+        font-size: .875em;
+        padding-top: 5px;    
+}
+ 
+  .about figcaption {
+     
+        padding: 10px;
+        background-color:white;
+        font-size: 1em;
+        padding-top: 5px;
+        margin-left: 260px;
+        color: brown;
+}
+.tours img.left {
+    width: 300px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    margin-right: 5px;
+    margin-left: 80px;
+    float: left;
+    
+}
+.tours img.right {
+    width: 300px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    margin-right: 80px;
+    margin-left: 5px;
+    float: right;
+    
+}
+
+    /*+++++++++typography+++++++++*/
+    p {
+        margin-bottom: 20px;
+        line-height:1.5;
+        font-size: 1em;
+    }
+aside p {
+        font-size: .875em;
+        color: black;
+        margin-left: 10px;
+    }
+aside h2 {
+    margin: 7px 7px 7px 7px;
+    color: darkred;
+}
+    aside li {
+        font-size: .9em;
+        color:darkgreen;
+        margin-left: 10px;
+        margin-bottom: 10px;
+    }
+h1, h2, h3, h4, h5 {
+    margin-bottom: 7px;
+    margin-top: 7px;
+    color: crimson;
+    font-family:Georgia, "Times New Roman", Times, serif;
+    
+}
+h1 {
+    font-size: 2em;
+}
+h2 {
+    font-size: 1.7em;
+}
+h3, h4, h5 { 
+   font-size: 1.5em;
+
+}
+
+iframe {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 150px;
+    width: 560px;
+    border: none;
+    height: 300px;
+    
+    
+}
